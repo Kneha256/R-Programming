@@ -7,7 +7,7 @@ c<-TRUE
 c
 typeof(c)
 
-#numeric_data_types
+#numeric_data_type
 class(a)
 a<-3
 class(a)
