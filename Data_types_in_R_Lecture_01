@@ -67,6 +67,43 @@ d
 h<-as.integer(d)
 h
 typeof(h)
+#numeric data types in another
+a<-9
+a
+class(a)
+b<-as.integer(a)
+b
+typeof(b)
+c<-as.character(a)
+c
+typeof(c)
+d<-as.logical(a)
+d
+typeof(d)
+e<-as.complex(a)
+e
+typeof(e)
+f<-as.raw(a)
+f
+typeof(f)
+#integer data type into another
+a<-5L
+a
+typeof(a)
+b<-as.numeric(a)
+class(b)
+c<-as.character(a)
+c
+d<-as.logical(a)
+d
+typeof(d)
+e<-as.complex(a)
+e
+typeof(e)
+a<-4+5i
+a
+b<-as.integer(a)
+b
 
 
 #user_input
@@ -82,3 +119,36 @@ class(c)
 #variable start with . is considered as hidden variable
 .a<-6
 .a
+
+
+
+#variable_start_with_(.)_is_considered_as_hidden_variable
+.a<-6
+.a
+ls()
+#to check hidden and unhidden variables
+ls(all.names=TRUE)
+ls(all.names=FALSE)
+
+
+
+
+#sprintf() used for formate specifiers
+sprintf()
+a<-"neha"
+b<-20
+sprintf("%s is a %f year old girl",a,b)
+sprintf("%s is a %.0f year old girl",a,b)
+sprintf("%s is a %.3f year old girl",a,b)
+#formate specifier
+a<-"hello"
+b<-100
+sprintf("%s my attendence is %d",a,b)
+sprintf("%s my attendence is %.0f",a,b)
+a<-"hello"
+b<-100
+sprintf("%s my attendence is %.2f",a,b)
+
+
+
+
