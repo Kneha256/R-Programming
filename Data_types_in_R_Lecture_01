@@ -48,3 +48,37 @@ a<-10
 b<-20
 cat(a,b)
 
+c<-20
+paste("my age is",c)
+paste0("my age is",c)
+cat("my age is",c)
+
+#assign_variable
+_rose <- 3 #wrong
+.2Rose <- 5 #wrong
+.rose<-20
+ROSE<-20
+typeof("rose")
+
+
+#to_change_data_type_in_R
+d<-4+3
+d
+h<-as.integer(d)
+h
+typeof(h)
+
+
+#user_input
+a<-readline(prompt="enter ur name:")
+a
+b<-readline(prompt="enter ur age:")
+b
+c<-as.integer(b) #for changing into integer
+typeof(c)
+class(c)
+
+
+#variable start with . is considered as hidden variable
+.a<-6
+.a
