@@ -1,1 +1,71 @@
+#VECTOR-sequence of numbers, multiple values of same basic data type only  
+  
+#to asign vector using c() fn
+a<-c(2,3,4,5)
+a
+b<-c(5,6,7,8)
+b
+d<-(a+b)
+d
+d<-(a-b)
+d
+d<-(a%/%b)
+d
+d<-(a%%b)
+d
+d<-(a/b)
+d
+#vectors of different length
+a<-c(4,5,6,7)
+a
+b<-c(2,3)
+b
+d<-(a+b)
+d
+
+
+
+
+#chapter2
+#for taking for vector type of data (same types of data)
+a<-scan()
+a<-scan(what='character')
+
+
+
+#rm() to remove a particular veriable
+rm(a)
+a
+b<-3L
+b
+rm(b)
+b
+
+
+
+#to remove all the variables except hidden variables
+rm(list=ls())
+rm(all)
+ls(all.names=TRUE)
+rm(list=ls(all.names=TRUE))
+ls(all.names=TRUE)
+
+
+
+#atomic vector
+a<-c(10)
+a
+b<-c(3)
+b
+typeof(b)
+b<-c(7L)
+b
+typeof(b)
+d<-c('k')
+d
+typeof(d)
+
+
+
+
 
