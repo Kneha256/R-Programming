@@ -1,4 +1,4 @@
-#logical_data_types
+#logical_data_type
 a<-TRUE
 a<-T
 class(a)
