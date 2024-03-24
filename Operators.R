@@ -1,5 +1,5 @@
 #operators
-#arithemetic operators
+#arithemetic operator
 #+,-,=,^,%/%,%%,./
 a<-9
 b<-6
