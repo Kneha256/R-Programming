@@ -106,7 +106,7 @@ b<-as.integer(a)
 b
 
 
-#user_input
+#user_input_in_R
 a<-readline(prompt="enter ur name:")
 a
 b<-readline(prompt="enter ur age:")
