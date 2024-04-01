@@ -75,3 +75,53 @@ list3[[2]][2]
 list3[[1]][2]
 list3[4]<-NULL
 list3
+
+
+
+#to assign name to indexes
+a<-c(1,2,10,20)
+a
+b<-"hello"
+b
+c<-c(3L,6L)
+c
+d<-c(3+2i,2+5i)
+d
+e<-list(a,b,c,d)
+a<-c(1,2,10,20)
+a
+b<-"hello"
+b
+c<-c(3L,6L)
+c
+d<-c(3+2i,2+5i)
+d
+e<-list(a,b,c,d)
+e
+
+
+
+
+#to access the values with index name
+e$'values'
+e[["GENDER"]]=c("M","F")
+e
+e$"GENDER"
+
+
+#method to give names to the list
+e<-list("values"=a,"str"=b,"int"c,"coml"=d)
+names(e)=c("value","str","int","compl")
+names(e)
+
+
+
+#to add another index with some list
+list3[[3]][2]<-"jan"
+list3
+
+
+#to add all the index of list
+list5<-list(a=1,b=2,c=3)
+list5
+a+b+c
