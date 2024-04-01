@@ -125,3 +125,29 @@ list3
 list5<-list(a=1,b=2,c=3)
 list5
 a+b+c
+
+
+
+#Q suppose that we want to represent a few properties of a parcel to be 
+#sent through the mail 
+#let us assume the parcel who destiny is newyork has dimenssions of 
+#2inches D 6 inches wide by 9 inches long 
+#the cost of the parcel is $12.95 through mail 
+#the key properties are all different data types in R.
+#combine the information into the vector.
+#char , a num og lenght 3, a vector of  length 1.
+#solution
+#practice
+u<-c(1,10,20,50)
+v<-c(2,20,30,40)
+paste(u,v)
+#if want to change seperater except space
+paste(u,v,sep="*")
+paste(u,v,sep="*",collapse="/")
+#consider a series of vector 50 to 100
+c<-c(50:100)
+c
+#want to delete a value at index 5
+c[-5][-30]
+#if we try with help of vector becz all the values in vector are ordered
+c[c(-5,-30)]
