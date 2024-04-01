@@ -195,5 +195,7 @@ b
 a<-c(b,3,5,7,8,2,4)
 a
 
-
+#repeat 3times the value at index 2
+rep(a[2],times=3)
+rep(a[2],each=3)
 
