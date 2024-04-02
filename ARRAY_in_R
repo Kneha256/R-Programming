@@ -12,3 +12,26 @@ arr
 arr<-array(c(v1,v2),dim=c(3,3))
 arr
 class(arr)
+
+#how can we access the values of the array
+arr[2,2]
+arr[2,]
+arr[,3]
+arr[1:2,1:2]
+#to access only 1st and 3rd row
+arr[c(1,3),]
+#to replace value at 1 column and 1 row
+arr[1,1]<-100
+arr
+arr[1:2,1:2]<-1000
+arr
+arr<-array(c(v1,v2),dim=c(8,5,2))
+arr
+arr[2,2,2]
+class(arr)
+arr[2,,]
+class(arr)
+a<-"hello"
+a
+a<-"hisname"
+a
