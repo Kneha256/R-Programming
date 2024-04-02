@@ -1,0 +1,14 @@
+#ARRAY - dimenssionalized, cuntinuous memory location , same data type, fixed size
+#array fn is used
+#dimenssion - no of rows and columns
+#one dimenssional array
+v1<-c(1,10,20)
+v2<-c(20,10,30,50,40)
+arr<-array(c(v1,v2))
+arr
+#multi dim arrays
+arr<-array(c(v1,v2),dim=c(8,5))
+arr
+arr<-array(c(v1,v2),dim=c(3,3))
+arr
+class(arr)
