@@ -20,7 +20,7 @@ ball<-5
 ball
 typeof(ball)
 
-#integer_data_types
+# integer_data_types
 a<-3L
 typeof(a)
 a
