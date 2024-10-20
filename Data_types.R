@@ -7,6 +7,8 @@ c<-TRUE
 c
 typeof(c)
 
+
+
 #numeric_data_type
 class(a)
 a<-3
